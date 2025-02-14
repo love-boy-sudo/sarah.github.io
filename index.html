@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Day for My Love</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* General Styling for the Slideshow */
+    #album .slideshow {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    /* Styling each image */
+    #album .slideshow img {
+      max-width: 100%;
+      height: auto;
+      width: 100%;
+      max-width: 250px;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    /* For smaller screens, adjust the image size further */
+    @media (max-width: 600px) {
+      #album .slideshow img {
+        max-width: 180px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="intro">
+      <h1>Welcome to this special place where my heart speaks to yours</h1>
+    </div>
+  </header>
+
+  <!-- Nature Photo Gallery Section -->
+  <section id="gallery">
+    <div class="slideshow">
+      <img src="images/u-3.jpg" alt="">
+      <img src="images/u-2.jpg" alt="">
+      <img src="images/u-1.jpg" alt="">
+    </div>
+  </section>
+
+  <!-- Sweet Poem Section -->
+  <section id="poem">
+    <div class="content">
+      <p>Every sunrise brings a new dawn, but no morning feels as bright as the one when I look into your eyes.  
+      Your love is the spark that lights my days, and with you, I see the world in brighter ways.  
+      Forever in my heart, forever by my side, together, our love is a beautiful ride.</p>
+    </div>
+  </section>
+
+  <!-- Song Section -->
+  <section id="song">
+    <div class="content">
+      <h2>Listen to Our Song</h2>
+      <audio controls>
+        <source src="music/tunapendana.mp3" type="audio/mp3">
+      </audio>
+    </div>
+    <div class="flower-slideshow">
+      <img src="images/t-3.jpg" alt="">
+      <img src="images/t-1.jpg" alt="">
+      <img src="images/t-3.jpg" alt="">
+      <img src="images/t-2.jpg" alt="">
+      <img src="images/t-1.jpg" alt="">
+      <img src="images/t-3.jpg" alt="">
+      <img src="images/t-1.jpg" alt="">
+    </div>
+  </section>
+
+  <!-- Personalized Love Letter Section -->
+  <section id="letter">
+    <div class="content">
+      <h2>My Dearest Love,</h2>
+      <p>Happy Valentine’s Day, my heart! ❤️</p>
+      <p>On this special day, I want to take a moment to reflect on just how lucky I am to have you in my life. It feels like yesterday that we met, yet each passing day with you is more meaningful than the last. There’s something so incredible about the way you light up my world with just your smile, your laugh, and the way you care about the little things. Every moment spent with you is a treasure, and I find myself counting my blessings daily, knowing that you’re by my side.</p>
+      <p>You are more than just my girlfriend; you are my best friend, my confidant, my greatest support, and the love of my life. The way you listen to me, understand my feelings, and share your own is something I will never take for granted. Our connection is so deep, so real, and it fills me with a sense of peace and joy I never knew was possible. When I’m with you, everything else fades away, and it’s just us, wrapped up in this beautiful love we’ve created together.</p>
+      <p>Your kindness, strength, and passion for life inspire me every single day. You’ve shown me that love is not just about the grand gestures, but also about the small, everyday moments—the quiet evenings, the inside jokes, the way you hold my hand when I need reassurance, and the way we laugh together, no matter what life throws at us. You make me want to be a better person, and I promise to always put in the effort to show you just how much you mean to me.</p>
+      <p>I love the way we support each other through thick and thin, and I know that no matter what challenges we may face in the future, we will face them together. With you, I feel invincible. With you, I know that I’m never alone, and I’m endlessly grateful for the way you make me feel cherished, loved, and accepted for exactly who I am.</p>
+      <p>So, on this Valentine’s Day, I just want to remind you how much you mean to me. My heart beats for you, and I am so thankful for every second that we get to spend together. I know there are many more beautiful memories ahead of us, and I can’t wait to create them with you. You are my forever, and I love you more than words could ever truly express.</p>
+      <p>Here’s to us, to love, and to a lifetime of happiness. 💕</p>
+      <p>Yours, always and forever,<br>Timothy Kibet</p>
+    </div>
+  </section>
+
+  <!-- Closing Section -->
+  <section id="closing">
+    <div class="content">
+      <p>Thank you for being my forever. I will always cherish you, love you, and adore you. Happy Valentine’s Day!</p>
+      <button onclick="window.location.href='album.html'">Let's Create More Memories Together</button>
+    </div>
+  </section>
+
+</body>
+</html>

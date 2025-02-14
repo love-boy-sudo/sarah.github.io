@@ -1,0 +1,134 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  h1, h2 {
+    font-family: 'Great Vibes', cursive;
+    color: #FF69B4;
+    text-align: center;
+  }
+  
+  /* Header Section */
+  header {
+    background-image: url('https://via.placeholder.com/1600x800/FFD700/000000?text=Romantic+Sunset');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Nature Photo Gallery Section */
+  #gallery .slideshow {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+  #gallery .slideshow img {
+    width: 100%;
+    height: auto;
+    transition: transform 1s ease-in-out;
+  }
+  #gallery .slideshow img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Sweet Poem Section */
+  #poem {
+    background-color: #F0E6F6;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  #poem p {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  /* Song Section */
+  #song {
+    background-color: #FFE4E1;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  #song h2 {
+    font-size: 2rem;
+    color: #FF69B4;
+  }
+  #song audio {
+    margin: 20px 0;
+  }
+  .flower-slideshow {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  .flower-slideshow img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    animation: slide 6s infinite ease-in-out;
+  }
+  @keyframes slide {
+    0% { opacity: 0; transform: translateY(-20px); }
+    50% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(20px); }
+  }
+  
+  /* Love Letter Section */
+  #letter {
+    background-color: #FFFBF0;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  #letter p {
+    font-size: 1.2rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+    line-height: 1.8;
+  }
+  
+  /* Closing Section */
+  #closing {
+    background-color: #FFB6C1;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  #closing p {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+  }
+  #closing button {
+    background-color: #FF69B4;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  #closing button:hover {
+    background-color: #FF1493;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #FF69B4;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+  }
+  footer p {
+    font-size: 0.9rem;
+  }
